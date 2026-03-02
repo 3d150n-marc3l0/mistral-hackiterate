@@ -1,0 +1,21 @@
+As a Senior Art Director, create a detailed image prompt for FLUX.1 in the unmistakable Studio Ghibli art style.
+
+CONTEXT:
+- Company Brand: "SENTINEL"
+- Episode Title: "{{ script.headline }}"
+- Dialogue Snippet:
+{% for line in script.dialogue %}
+[{{ line.speaker }}]: {{ line.text }}
+{% endfor %}
+
+MANDATORY VISUAL COMPOSITION:
+- Style: Traditional 2D hand-painted watercolor, nostalgic Studio Ghibli aesthetic. Soft sun-dappled lighting and lush nature.
+- Layout: 16:9 cinematic aspect ratio.
+
+TYPOGRAPHY & BRANDING (ABSOLUTE PRIORITY):
+1. MAIN LOGO: The word "SENTINEL" must be written in large, bold, clean white letters on a rustic wooden plank at the top-left. It must be 100% legible.
+2. EPISODE TITLE: On a second wooden sign hanging below the radio, write exactly: "{{ short_headline }}". 
+3. IMPORTANT: Use very few words. If the title is long, only use the first 3 words. No messy or fake letters.
+
+TASK:
+Write a 200-word English prompt for FLUX.1 describing the scene where technology (like an old radio or a mossy robot) meets nature, and specify exactly how the brand "SENTINEL" and the title "{{ script.headline[:50] }}" are artistically and legibly presented.
