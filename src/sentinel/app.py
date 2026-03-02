@@ -128,6 +128,7 @@ def init_pipeline() -> SentinelPipeline:
 pipeline = init_pipeline()
 
 # --- INTERFAZ ---
+st.image("assets/banner.png", width=400)
 st.title("🎙️ Sentinel Daily")
 st.caption("AI-Driven Multilingual Tech News Podcast powered by Mistral Large 3")
 
