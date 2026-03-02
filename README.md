@@ -140,12 +140,51 @@ LOG_LEVEL=INFO
 
 ---
 
+## 🛠️ Makefile Commands
+
+The project includes a `Makefile` to simplify common tasks both locally and with Docker.
+
+### Local Development
+- `make run`: Run the Streamlit app locally using `uv`.
+- `make test`: Run all tests with `uv run pytest`.
+- `make clean`: Remove generated logs, outputs, and `__pycache__` files.
+
+### Docker Management
+- `make build`: Build the Docker image (`sentinel-daily`).
+- `make up`: Start the application in a detached Docker container.
+- `make down`: Stop and remove the Docker container.
+- `make logs`: View live logs from the running container.
+
+---
+
+## 🐳 Docker Deployment
+
+To run the application inside a container:
+
+1. **Build the image**:
+   ```bash
+   make build
+   ```
+
+2. **Run the container**:
+   ```bash
+   make up
+   ```
+   The app will be available at [http://localhost:8501](http://localhost:8501).
+
+3. **Stop the container**:
+   ```bash
+   make down
+   ```
+
+---
+
 ## Running
 
-### Start the web application
+### Start the web application (Local)
 
 ```bash
-uv run streamlit run src/sentinel/app.py
+make run
 ```
 
 Open [http://localhost:8501](http://localhost:8501) in your browser.
