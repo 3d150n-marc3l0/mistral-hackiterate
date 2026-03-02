@@ -1,0 +1,127 @@
+{
+    "audio_path": "outputs/20260302_064527/audio.mp3",
+    "cover_path": "outputs/20260302_064527/cover.png",
+    "transcript": {
+        "headline": "Retro Tech Meets AI and the Future of Agentic Web",
+        "summaries": [
+            {
+                "id": 47213866,
+                "title": "Computer-generated dream world: Virtual reality for a 286 processor",
+                "url": "https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/",
+                "brief": "A developer simulates an entire 286 computer system around a vintage processor using modern hardware, creating a virtual reality for the chip itself."
+            },
+            {
+                "id": 47212355,
+                "title": "If AI writes code, should the session be part of the commit?",
+                "url": "https://github.com/mandel-macaque/memento",
+                "brief": "A new Git extension records and attaches AI coding sessions as notes to commits, ensuring transparency and traceability in AI-assisted development."
+            },
+            {
+                "id": 47211249,
+                "title": "WebMCP is available for early preview",
+                "url": "https://developer.chrome.com/blog/webmcp-epp",
+                "brief": "Chrome introduces WebMCP, a set of APIs enabling AI agents to interact with websites in a structured, reliable, and efficient manner."
+            }
+        ],
+        "dialogue": [
+            {
+                "speaker": "Alex",
+                "text": "Welcome back to Mistral Sentinel Daily. Today, we have a fascinating mix of stories that bridge the past, present, and future of technology. Let’s start with something that feels like it’s straight out of a cyberpunk novel. Sam, imagine creating a virtual reality—not for humans, but for a 286 processor."
+            },
+            {
+                "speaker": "Sam",
+                "text": "Whoa, hold on, Alex. A virtual reality for a *286 processor*? That’s the chip from the 80s, right? Like, the kind that powered my dad’s old office computer. How does that even work?"
+            },
+            {
+                "speaker": "Alex",
+                "text": "Exactly. A developer took a Harris 80C286 processor, wired it up to a Raspberry Pi using IO expanders, and essentially simulated the rest of the computer around it. The goal? To make it boot and run simple assembly code, as if the processor were part of a fully functional system."
+            },
+            {
+                "speaker": "Sam",
+                "text": "Okay, that’s wild. So, the 286 thinks it’s in a real computer, but it’s actually just talking to a Pi that’s pretending to be RAM, storage, and all the other components? That’s like giving a vintage car a virtual engine and roads to drive on."
+            },
+            {
+                "speaker": "Alex",
+                "text": "Precisely. And the implications here are deeper than just nostalgia. This project forces us to ask: what does it mean for a system to be real? If a processor can’t tell the difference between physical hardware and simulated signals, where do we draw the line between reality and simulation?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "Right, and it’s not just philosophical. This could be a game-changer for preserving old software or even testing how vintage systems would behave in modern environments without needing the original hardware. But let’s pivot to something more current. Alex, what do you think about AI-generated code and the idea of attaching the entire AI session to a Git commit?"
+            },
+            {
+                "speaker": "Alex",
+                "text": "Ah, now we’re touching on transparency and accountability in AI-assisted development. This Git extension, called git-memento, records the AI’s coding session and attaches it as a note to the commit. It’s a step toward ensuring that every line of AI-generated code can be traced back to its origin."
+            },
+            {
+                "speaker": "Sam",
+                "text": "I love this. Normally, when an AI helps you write code, you just get the final output, but you lose the context of how it got there. With git-memento, you can see the entire conversation—like, why the AI suggested a specific function or how it debugged an error. It’s like having a time machine for your codebase."
+            },
+            {
+                "speaker": "Alex",
+                "text": "And it’s not just about debugging. This could be crucial for compliance, audits, or even legal scenarios where you need to prove that the code was generated ethically and without bias. But here’s a question for you, Sam: how do you think this will change the workflow for developers?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "Well, for starters, it might make developers more intentional about when and how they use AI. If every session is recorded, you’d probably want to keep your prompts clear and your interactions focused. It could also make code reviews way more efficient because reviewers can see the AI’s thought process. But I wonder if it’ll add friction for smaller teams or solo devs who might not want the overhead."
+            },
+            {
+                "speaker": "Alex",
+                "text": "That’s a valid concern. But let’s shift gears to our final topic, which is all about the future of how AI interacts with the web. Chrome has introduced WebMCP, a set of APIs designed to make websites agent-ready. Sam, break this down for us—what does agent-ready even mean?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "Agent-ready means websites are designed to work seamlessly with AI agents, not just humans. WebMCP introduces two APIs: a declarative one for standard actions like filling out forms, and an imperative one for more complex interactions that need JavaScript. Think of it like giving AI agents a backstage pass to your website’s functionality."
+            },
+            {
+                "speaker": "Alex",
+                "text": "And why is this a big deal? What problems does it solve?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "Right now, AI agents interact with websites by scraping the DOM or guessing how to click buttons, which is slow and error-prone. WebMCP lets developers define exactly how an agent should interact with their site—like booking a flight or filing a support ticket. It’s like giving the agent a map instead of making it wander around blindly."
+            },
+            {
+                "speaker": "Alex",
+                "text": "So, this could make AI-driven workflows faster, more reliable, and less likely to break when a website updates its design. But what about security? If agents have direct access to a site’s functionality, doesn’t that open up new attack vectors?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "That’s a great question. WebMCP is designed to be explicit, so developers have to intentionally expose actions to agents. It’s not like the agent can just start clicking random buttons. Plus, the APIs are built with the same security models as the web, so things like CORS and permissions still apply. But yeah, it’ll be interesting to see how this evolves as more sites adopt it."
+            },
+            {
+                "speaker": "Alex",
+                "text": "Absolutely. And with that, we’ve covered a lot of ground today—from virtualizing vintage processors to making the web AI-friendly. Thanks for joining us, and we’ll see you next time on Mistral Sentinel Daily."
+            },
+            {
+                "speaker": "Sam",
+                "text": "Stay curious, everyone!"
+            }
+        ],
+        "estimated_duration": 120
+    },
+    "language": "English",
+    "score": 9.0,
+    "sources": [
+        {
+            "id": 47213866,
+            "title": "Computer-generated dream world: Virtual reality for a 286 processor",
+            "url": "https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/",
+            "source": "Hacker News",
+            "content_summary": "Computer-generated dream world\nVirtual reality for a 286 processor\nWhat is \"real\"? How do you define \"real\"? If you're talking about what you can feel, what you can smell, taste, and see... then \"real\" is simply electrical signals interpreted by your brain.\n— Morpheus, The Matrix\nIf the processor is the brain of the computer, could it also be part of some kind of virtual reality? Simulated memory, software-defined peripherals, artificially generated interrupts.\nMy first computer was a 286 with 1 MB of RAM and a 50 MB HDD (if I remember correctly). So I decided to pick up a 286 processor and try to simulate the rest of the computer around it. Or at least make it to boot up and run some simple assembly code.\nTwo years ago, I ordered two (that's how many came in a package) Harris 80C286-12 processors. My memories are a bit hazy, but I believe the C\nin its name is important because these are the types that are less sensitive to clock accuracy (the 12\nat the end means it likes to run at 12 MHz), and can even be stepped manually.\nAt first, I wasn't too successful with it, and the project ended up in a drawer. Then this year, I picked it up again and tried to figure out where things went wrong.\nWiring up\nThe processor fits into a PLCC-68 socket. The pins of the socket are not suitable for plugging in jumper wires directly, so the socket was mounted onto an adapter PCB with jumper-compatible headers. The pinout of both the chip and the socket is included in the datasheet, but the adapter PCB complicates things a bit, so I created a small conversion table to make my life easier.\nThe table also helped identify the various inputs and outputs, which would later be useful when connecting to the Raspberry Pi. As you can see, no fewer than 57 pins are required, which is more than the Pi can provide. The MCP23S17 IO expander came to the rescue. While it wouldn't allow us to drive the processor at the breakneck speed of the supported 12 MHz, fortunately, that's not our goal.\nThe chip contains 16 IO pins, so we'll need four of them. Although each pin can individually be configured as input or output, I tried to group them logically. The expander has side A and side B, each with 8 pins, and the final result looked like this:\n┌───┬──┬───┐\n┤ └──┘ ├\n┤ ├\n┤ FLAG ├ ERROR\n┤ ├ BUSY\n┤ ADDR:100 ├ INTR\nREADY ┤ ├ NMI\nRESET ┤B A├ PEREQ\nCLK ┤ ├ HOLD\n└──────────┘\n┌───┬──┬───┐\nHLDA ┤ └──┘ ├ A23\nCOD/INTA ┤ ├ A22\nM/IO ┤ MISC ├ A21\nLOCK ┤ ├ A20\nBHE ┤ ADDR:011 ├ A19\nS1 ┤ ├ A18\nS0 ┤B A├ A17\nPEACK ┤ ├ A16\n└──────────┘\n┌───┬──┬───┐\nA8 ┤ └──┘ ├ A7\nA9 ┤ ├ A6\nA10 ┤ ADDR ├ A5\nA11 ┤ ├ A4\nA12 ┤ ADDR:010 ├ A3\nA13 ┤ ├ A2\nA14 ┤B A├ A1\nA15 ┤ ├ A0\n└──────────┘\n┌───┬──┬───┐\nD8 ┤ └──┘ ├ D7\nD9 ┤ ├ D6\nD10 ┤ DATA ├ D5\nD11 ┤ ├ D4\nD12 ┤ ADDR:001 ├ D3\nD13 ┤ ├ D2\nD14 ┤B A├ D1\nD15 ┤ ├ D0\n└──────────┘\nThe Pi communicates with the expanders over SPI. Several solutions exist for this. I chose the one where all chips are active simultaneously, and the Pi is sending them messages by their hardware address.\nThe RESET pin (wired with the purple cable) does not need to be controlled by the Pi in this case, but during one of the debugging sessions, I tried it in the hopes that it would help, and it remained that way. Now we just need to connect everything with a truckload of jumper wires, and we could move on to programming.\nIO Expansion\nWe only need a relatively small portion of the MCP23S17’s capabilities. We just have to configure the direction of the IO pins and read/write the relevant registers. Config"
+        },
+        {
+            "id": 47212355,
+            "title": "If AI writes code, should the session be part of the commit?",
+            "url": "https://github.com/mandel-macaque/memento",
+            "source": "Hacker News",
+            "content_summary": "git-memento\nis a Git extension that records the AI coding session used to produce a commit.\nIt runs a commit and then stores a cleaned markdown conversation as a git note on the new commit.\n- Create commits with normal Git flow (\n-m\nor editor). - Attach the AI session trace to the commit (\ngit notes\n). - Keep provider support extensible (Codex first, others later).\n- Produce human-readable markdown notes.\nInitialize per-repository memento settings:\ngit memento init\ngit memento init codex\ngit memento init claude\ninit\nstores configuration in local git metadata (.git/config\n) under memento.*\n.\ngit memento commit <session-id> -m \"Normal commit message\"\ngit memento commit <session-id> -m \"Subject line\" -m \"Body paragraph\"\ngit memento amend -m \"Amended subject\"\ngit memento amend <new-session-id> -m \"Amended subject\" -m \"Amended body\"\ngit memento audit --range main..HEAD --strict\ngit memento doctor\nOr:\ngit memento commit <session-id>\nYou can pass -m\nmultiple times, and each value is forwarded to git commit\nin order.\nWhen -m\nis omitted, git commit\nopens your default editor.\namend\nruns git commit --amend\n.\n- Without a session id, it copies the note(s) from the previous HEAD onto the amended commit.\n- With a session id, it copies previous note(s) and appends the new fetched session as an additional session entry.\n- A single commit note can contain sessions from different AI providers.\nShare notes with the repository remote (default: origin\n):\ngit memento share-notes\ngit memento share-notes upstream\nThis pushes refs/notes/*\nand configures local remote.<name>.fetch\nso notes can be fetched by teammates.\nPush your branch and sync notes to the same remote in one command (default: origin\n):\ngit memento push\ngit memento push upstream\nThis runs git push <remote>\nand then performs the same notes sync as share-notes\n.\nSync and merge notes from a remote safely (default remote: origin\n, default strategy: cat_sort_uniq\n):\ngit memento notes-sync\ngit memento notes-sync upstream\ngit memento notes-sync upstream --strategy union\nThis command:\n- Ensures notes fetch mapping is configured.\n- Creates a backup ref under\nrefs/notes/memento-backups/<timestamp>\n. - Fetches remote notes into\nrefs/notes/remote/<remote>/*\n. - Merges remote notes into local notes and pushes synced notes back to the remote.\nConfigure automatic note carry-over for rewritten commits (rebase\n/ commit --amend\n):\ngit memento notes-rewrite-setup\nThis sets local git config:\nnotes.rewriteRef=refs/notes/commits\nnotes.rewriteMode=concatenate\nnotes.rewrite.rebase=true\nnotes.rewrite.amend=true\nCarry notes from a rewritten range (for squash/rewrite flows) onto a new target commit:\ngit memento notes-carry --onto <new-commit> --from-range <base>..<head>\nThis reads notes from commits in <base>..<head>\nand appends a provenance block to <new-commit>\n.\nAudit note coverage and note metadata in a commit range:\ngit memento audit --range main..HEAD\ngit memento audit --range origin/main..HEAD --strict --format json\n- Reports commits with missing notes (\nmissing-note <sha>\n). - Validates note metadata markers (\n- Provider:\nand- Session ID:\n). - In\n--strict\nmode, invalid note structure fails the command.\nRun repository diagnostics for provider config, notes refs, and remote sync posture:\ngit memento doctor\ngit memento doctor upstream --format json\nShow command help:\ngit memento help\nShow installed tool version (major.minor + commit metadata when available):\ngit memento --version\nProvider defaults can come from env vars"
+        },
+        {
+            "id": 47211249,
+            "title": "WebMCP is available for early preview",
+            "url": "https://developer.chrome.com/blog/webmcp-epp",
+            "source": "Hacker News",
+            "content_summary": "Published: February 10, 2026\nAs the agentic web evolves, we want to help websites play an active role in how AI agents interact with them. WebMCP aims to provide a standard way for exposing structured tools, ensuring AI agents can perform actions on your site with increased speed, reliability, and precision.\nBy defining these tools, you tell agents how and where to interact with your site, whether it's booking a flight, filing a support ticket, or navigating complex data. This direct communication channel eliminates ambiguity and allows for faster, more robust agent workflows.\nStructured interactions for the agentic web\nWebMCP proposes two new APIs that allow browser agents to take action on behalf of the user:\n- Declarative API: Perform standard actions that can be defined directly in HTML forms.\n- Imperative API: Perform complex, more dynamic interactions that require JavaScript execution.\nThese APIs serve as a bridge, making your website \"agent-ready\" and enabling more reliable and performant agent workflows compared to raw DOM actuation.\nUse cases\nImagine an agent that can handle complex tasks for your users with confidence and speed.\n- Customer support: Help users create detailed customer support tickets, by enabling agents to fill in all of the necessary technical details automatically.\n- Ecommerce: Users can better shop your products when agents can easily find what they're looking for, configure particular shopping options, and navigate checkout flows with precision.\n- Travel: Users could more easily get the exact flights they want, by allowing the agent to search, filter results, and handle bookings using structured data to ensure accurate results every time.\nJoin the early preview program\nWebMCP is available for prototyping to early preview program participants.\nSign up for the early preview program to gain access to the documentation and demos, stay up-to-date with the latest changes, and discover new APIs."
+        }
+    ]
+}
