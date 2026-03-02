@@ -92,18 +92,36 @@ st.set_page_config(
     layout="wide"
 )
 
-# Estilo personalizado para las tarjetas de noticias
+# Estilo personalizado premium
 st.markdown("""
     <style>
-    .main { background-color: #0e1117; }
-    .stAudio { margin-top: 20px; }
+    /* Contenedor principal con gradientes suaves */
+    [data-testid="stAppViewContainer"] {
+        background: radial-gradient(circle at 2% 10%, rgba(79, 172, 254, 0.08), transparent 25%),
+                    radial-gradient(circle at 98% 90%, rgba(0, 242, 254, 0.08), transparent 25%),
+                    var(--background-color);
+    }
+    
+    /* Sidebar con fondo diferenciado y borde sutil */
+    [data-testid="stSidebar"] {
+        background-image: linear-gradient(180deg, var(--secondary-background-color), rgba(79, 172, 254, 0.05));
+        border-right: 1px solid rgba(79, 172, 254, 0.1);
+    }
+    
+    /* Ajustes adicionales de UI */
+    .stAudio { margin-top: 20px; border-radius: 10px; }
     .speaker-alex { color: #4facfe; font-weight: bold; }
     .speaker-sam { color: #00f2fe; font-weight: bold; }
+    
+    /* Mejorar el aspecto de los botones del sidebar */
+    .stButton > button {
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
     </style>
     """, unsafe_allow_html=True)
 
 # Inicialización del cerebro del proyecto
-@st.cache_resource
 def init_pipeline() -> SentinelPipeline:
     return SentinelPipeline()
 
@@ -164,7 +182,7 @@ if st.session_state.view == "generator":
 
     with col1:
         st.subheader("📡 Generate Broadcast")
-        if st.button("🚀 Start Production New", use_container_width=True):
+        if st.button("🚀 Start Production", use_container_width=True):
             with st.status("Sentinel is working...", expanded=True) as status:
                 try:
                     # 1. Ejecución del proceso
